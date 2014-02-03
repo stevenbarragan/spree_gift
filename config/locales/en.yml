@@ -3,7 +3,7 @@
 
 en:
   spree:
-    has_a_gift?: tiene regalo?
-    gift_info: Texto del regalo
-    is_it_a_gift?: ¿Es un regalo?
-    gift_text: 'Nota del regalo:'
+    has_a_gift?: has a gift?
+    gift_info: gift info
+    is_it_a_gift?: Is it a gift?
+    gift_text: 'Gift note:'
