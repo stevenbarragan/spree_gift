@@ -1,0 +1,12 @@
+<!-- insert_bottom '[data-hook=cart_item_description]' -->
+<div class="field gift">
+  <div class="field">
+    <b><%= item_form.label :gift, Spree.t(:is_it_a_gift?) %></b>
+    <%= item_form.check_box :gift %>
+  </div>
+  <div class="field gift-text <%= 'hidden' unless line_item.gift? %>">
+    <%= item_form.label :gift_text, Spree.t(:gift_text) %>
+    <br>
+    <%= item_form.text_area :gift_text %>
+  </div>
+</div>
