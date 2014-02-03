@@ -1,0 +1,4 @@
+<!-- insert_after '.item-total' -->
+<% if shipment.order.has_gift? %>
+  <td><%= line_item.gift_text if line_item.gift %></td>
+<% end %>

@@ -1,0 +1,4 @@
+<!-- insert_before '[data-hook=admin_order_form_line_items_header_actions]' -->
+<% if shipment.order.has_gift? %>
+  <th><%= Spree.t :gift_info %></th>
+<% end %>
