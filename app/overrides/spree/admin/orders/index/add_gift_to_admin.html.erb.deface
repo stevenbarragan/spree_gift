@@ -1,0 +1,2 @@
+<!-- insert_before '[data-hook=admin_orders_index_row_actions]' -->
+<td><%= Spree.t( order.has_gift? ? :yes : :no ) %></td>
