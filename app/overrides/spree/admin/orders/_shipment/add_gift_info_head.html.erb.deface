@@ -1,4 +1,4 @@
-<!-- insert_before '[data-hook=admin_order_form_line_items_header_actions]' -->
+<!-- insert_after 'thead th:nth-child(3)' -->
 <% if shipment.order.has_gift? %>
   <th><%= Spree.t :gift_info %></th>
 <% end %>
