@@ -8,5 +8,7 @@
     <%= item_form.label :gift_text, Spree.t(:gift_text) %>
     <br>
     <%= item_form.text_area :gift_text %>
+    <br>
+    <button><%= Spree.t(:save) %></button>
   </div>
 </div>
