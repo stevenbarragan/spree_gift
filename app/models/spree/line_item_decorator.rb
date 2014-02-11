@@ -1,5 +1,5 @@
 Spree::LineItem.class_eval do
-  attr_accessible :gift, :gift_text
+  Spree::PermittedAttributes.line_item_attributes << [:gift, :gift_text]
 
   def gift?
     gift
